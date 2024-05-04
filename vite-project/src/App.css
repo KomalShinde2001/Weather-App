@@ -1,0 +1,62 @@
+body {
+    background-image: url('https://us.123rf.com/450wm/liudmilachernetska/liudmilachernetska2310/liudmilachernetska231025988/214844078-photos-of-sky-during-different-weather-collage-meteorology-forecast-climate-change.jpg?ver=6');
+    background-size: cover;  
+    font-family: Arial, sans-serif;
+    font-weight: bold; /* Increase font weight */
+    font-size: 20px; 
+    padding-top: 70px;
+  }
+  h1{
+    text-align: center;
+  }
+  section {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  input[type="search"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  @media (max-width: 768px) {
+    section {
+      padding: 10px;
+    }
+  
+    input {
+      width: calc(100% - 60px);
+    }
+  
+    button {
+      width: 60px;
+    }
+  }
+
+  .weather-info {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    
+  }
+  
+  .weather-info p {
+    margin: 5px 0;
+  }
+  
